@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    ;
+}
+
+header{
+display: flex;
+justify-content: center;
+position: absolute;
+height: 11.5vh;
+width: 100%;
+}
+#cabecalho{
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    display: flex ;
+    width: 85%;
+    height: 11.5vh;
+;
+}
+#barrapesquisa{
+    background-color: white;
+    width: 451px; border-radius: 100px; 
+    height: 43px;
+}
+#barrapesquisad{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    height: 43px;
+    width: 34%;
+}
+
+#cabecalho a{
+    text-decoration: none;
+    font-weight: 10;
+    font-size: 20px;
+    vertical-align: middle;
+    color: white;
+    font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif, "Inter variant0", Tofu;
+}
+#cabecalho p{
+    font-weight: 10;
+    font-size: 20px;
+    vertical-align: middle;
+    color: white;
+    font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif, "Inter variant0", Tofu;
+}
+#barradiv{
+    margin-top: 11.5vh;
+    position: absolute;
+    background-color: white;
+    height: 1px; 
+    width: 100%;
+}
+
+#areainfo{
+    display: flex;
+    width: 100%;
+    height: 27vh;
+    margin-top: -10.6vh;
+}
+@font-face{
+    font-family: 'Vasco';
+    src: url(Long_Shot.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+#areainfantil{
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5em;
+    color: #FE3232;
+    display: flex;
+    background-image: url(faixa\ invertida.png);
+    background-size: 100%;
+    height: 17.9vh;
+    font-family: 'Vasco';
+}
+#gigantec{
+    color: #FFFF;
+    align-items: center;
+    text-align: center;
+    justify-content: right;
+    display: flex;
+    font-size: 3.5em;
+    font-family: 'Vasco';
+    background-color: #44100C;
+    width: 28%;
+}
+#textovasco{
+    justify-content: right;
+    text-align: center;
+    display: flex;
+    width: 100%;
+}
+#info{
+    font-weight: lighter;
+    font-size: 18px;
+    color: white;
+    font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif, "Inter variant0", Tofu;
+    background-color: #D26F1F;
+    height: 75%;
+    
+}
+#infod{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+#contato{
+
+}

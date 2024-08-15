@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    ;
+}
+@font-face{
+    font-family: 'Vasco';
+    src: url(Long_Shot.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+header{
+display: flex;
+justify-content: center;
+height: 11.5vh;
+width: 100%;
+}
+#cabecalho{
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    display: flex ;
+    width: 85%;
+    height: 11.5vh;
+;}
+#barrapesquisa{
+    background-color: white;
+    width: 451px; border-radius: 100px; 
+    height: 43px;
+}
+#barrapesquisad{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    height: 43px;
+    width: 34%;
+}
+#cabecalho a{
+    text-decoration: none;
+    font-weight: 10;
+    font-size: 20px;
+    vertical-align: middle;
+    color: white;
+    font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif, "Inter variant0", Tofu;
+}
+#cabecalho p{
+    font-weight: 10;
+    font-size: 20px;
+    vertical-align: middle;
+    color: white;
+    font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif, "Inter variant0", Tofu;
+}
+#barradiv{
+    background-color: white;
+    height: 1px; 
+    width: 100%;
+}
+#grandesfomes{
+    display: block;
+    font-family: 'Vasco';
+}
